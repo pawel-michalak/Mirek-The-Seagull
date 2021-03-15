@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import AVKit
 
 @main
 struct Mirek_The_SeagullApp: App {

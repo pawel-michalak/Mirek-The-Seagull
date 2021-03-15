@@ -11,6 +11,7 @@
 		F6AD3BD325FB77A0008A8470 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6AD3BD225FB77A0008A8470 /* ContentView.swift */; };
 		F6AD3BD525FB77A2008A8470 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AD3BD425FB77A2008A8470 /* Assets.xcassets */; };
 		F6AD3BD825FB77A2008A8470 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6AD3BD725FB77A2008A8470 /* Preview Assets.xcassets */; };
+		F6AD3BE425FBFE7F008A8470 /* seagull_laugh.m4a in Resources */ = {isa = PBXBuildFile; fileRef = F6AD3BE125FBFDA7008A8470 /* seagull_laugh.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		F6AD3BD425FB77A2008A8470 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6AD3BD725FB77A2008A8470 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F6AD3BD925FB77A2008A8470 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6AD3BE125FBFDA7008A8470 /* seagull_laugh.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = seagull_laugh.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +54,11 @@
 		F6AD3BCF25FB77A0008A8470 /* Mirek The Seagull */ = {
 			isa = PBXGroup;
 			children = (
+				F6AD3BE025FBFD9A008A8470 /* Resources */,
 				F6AD3BD025FB77A0008A8470 /* Mirek_The_SeagullApp.swift */,
 				F6AD3BD225FB77A0008A8470 /* ContentView.swift */,
 				F6AD3BD425FB77A2008A8470 /* Assets.xcassets */,
+				F6AD3BE125FBFDA7008A8470 /* seagull_laugh.m4a */,
 				F6AD3BD925FB77A2008A8470 /* Info.plist */,
 				F6AD3BD625FB77A2008A8470 /* Preview Content */,
 			);
@@ -67,6 +71,13 @@
 				F6AD3BD725FB77A2008A8470 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6AD3BE025FBFD9A008A8470 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F6AD3BE425FBFE7F008A8470 /* seagull_laugh.m4a in Resources */,
 				F6AD3BD825FB77A2008A8470 /* Preview Assets.xcassets in Resources */,
 				F6AD3BD525FB77A2008A8470 /* Assets.xcassets in Resources */,
 			);
